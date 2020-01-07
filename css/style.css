@@ -25,6 +25,14 @@ html, body, ul, li {
     width: 50%;
 }
 
+.timeline ul li:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.timeline ul li:nth-child(even) .date {
+    text-align: right;
+}
+
 .timeline::before {
     content: "";
     position: absolute;
