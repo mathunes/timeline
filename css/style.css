@@ -3,12 +3,23 @@ html, body {
     padding: 0;
 }
 
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+}
+
 .timeline ul li {
     width: 40%;
     margin-bottom: 50px;
     list-style-type: none;
 }
 
-.timeline ul li {
-    
+.timeline::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    left: 50%;
+    background-color: black;
 }
