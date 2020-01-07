@@ -26,13 +26,15 @@ html, body, ul, li {
 }
 
 .point {
-    width: 20px;
+    min-width: 20px;
     height: 20px;
     background-color: #be9fe1;
     border-radius: 100%;
-    padding: 5px;
+    /* padding: 5px; */
     z-index: 2;
     border: 3px #333333 solid;
+    position: relative;
+    left: 1px;
 }
 
 .timeline ul li .content {
