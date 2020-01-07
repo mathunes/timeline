@@ -25,6 +25,16 @@ html, body, ul, li {
     align-items: center;
 }
 
+.point {
+    width: 20px;
+    height: 20px;
+    background-color: #be9fe1;
+    border-radius: 100%;
+    padding: 5px;
+    z-index: 2;
+    border: 3px #333333 solid;
+}
+
 .timeline ul li .content {
     width: 50%;
     padding: 0 40px;
