@@ -1,4 +1,4 @@
-html, body {
+html, body, ul, li {
     margin: 0;
     padding: 0;
 }
@@ -10,8 +10,9 @@ html, body {
 }
 
 .timeline ul li {
-    width: 40%;
+    max-width: 40%;
     margin-bottom: 50px;
+    margin-left: 5%;
     list-style-type: none;
 }
 
@@ -22,4 +23,14 @@ html, body {
     width: 3px;
     left: 50%;
     background-color: black;
+}
+
+.timeline ul li:nth-child(odd) {
+    text-align: right;
+    
+}
+
+.timeline ul li:nth-child(even) {
+    position: relative;
+    left: 50%;
 }
