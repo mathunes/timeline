@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.timeline ul li {
+    width: 40%;
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+
+.timeline ul li {
+    
+}
