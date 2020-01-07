@@ -1,12 +1,18 @@
 html, body, ul, li {
     margin: 0;
     padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    padding: 20px 0;
 }
 
 .timeline {
     position: relative;
     margin: 0 auto;
     width: 90%;
+    
 }
 
 .timeline ul li {
@@ -30,6 +36,14 @@ html, body, ul, li {
 
 .timeline ul li:nth-child(even) {
     flex-direction: row-reverse;
+}
+
+.timeline ul li:nth-child(odd) {
+    text-align: right;
+}
+
+.timeline ul li:nth-child(odd) .date {
+    text-align: left;
 }
 
 .timeline ul li:nth-child(even) .date {
