@@ -28,6 +28,22 @@ html, body, ul, li {
     padding: 0 40px;
 }
 
+.timeline ul li:nth-child(odd) .content {
+    padding-left: 0;
+}
+
+.timeline ul li:nth-child(odd) .date {
+    padding-right: 0;
+}
+
+.timeline ul li:nth-child(even) .content {
+    padding-right: 0;
+}
+
+.timeline ul li:nth-child(even) .date {
+    padding-left: 0;
+}
+
 .timeline ul li .date {
     width: 50%;
     padding: 0 40px;
